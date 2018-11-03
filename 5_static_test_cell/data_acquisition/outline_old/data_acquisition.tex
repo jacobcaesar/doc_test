@@ -1,0 +1,145 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{booktabs}
+\usepackage{gensymb}
+\begin{document}
+	
+\section{Data Acquisition System(Outline)}
+
+\subsection{Design}
+
+Data that we need:
+\begin{itemize}
+	\item Temperature
+	\begin{itemize}
+		\item Ambient
+		\item Plumbing
+		\item Chamber
+		\item Nozzle
+	\end{itemize}
+	\item Pressure
+	\begin{itemize}
+		\item Plumbing (Run Tank)
+		\item Chamber
+	\end{itemize}
+	\item Load
+	\begin{itemize}
+		\item Thrust Data from Low Profile Universal (LPU) Compression Load Cell
+	\end{itemize}
+\end{itemize}
+
+Hardware Discussion
+\begin{itemize}
+	\item Load Cell
+	\item Pressure Transducers
+	\begin{itemize}
+		\item PT1
+		\item PT2
+	\end{itemize}
+	\item Thermocouples
+	\begin{itemize}
+		\item K-Type
+	\end{itemize}
+	\item NI 6009 Board
+	\begin{itemize}
+		\item Pressure Transducers and Load Cell
+	\end{itemize}
+	\item NI 6002 Board
+	\begin{itemize}
+		\item Thermocouples
+	\end{itemize}
+	Signal Conditioner for Load Cell Data
+\end{itemize}
+
+Grand Schematic
+
+Software
+\begin{itemize}
+	\item Labview
+	\begin{itemize}
+		\item GUI
+	\end{itemize}
+	\item NIMAX
+\end{itemize}
+
+\newpage
+
+
+\newcommand{\ra}[1]{\renewcommand{\arraystretch}{#1}}
+\begin{table*}\centering
+	\ra{1.3}
+	\begin{tabular}{@{}ccccccc@{}}\toprule
+		& \multicolumn{2}{c}{Load Cell} & \phantom{abc}& \multicolumn{3}{c}{Pressure Transducers}\\
+		\cmidrule{1-3} \cmidrule{4-6}
+		 &&Rated Output: $3mV/V$ &&& Rated Output: \\ &&Safe Temp. Range: -65$^{\circ}$ to 250$^{\circ}$F &&& Safe Temp. Range: \\ &&Excitation Voltage: 10 VDC &&& Excitation Voltage: \\ \midrule
+		& \multicolumn{5}{c}{Thermocouples}\\
+		\cmidrule{4-5}
+		&&& Rated Output: \\ &&& Safe Temp. Range:\\ &&& Excitation Voltage: \\  \midrule \midrule
+		& \multicolumn{4}{c}{DAQ NI Boards}\\ \midrule
+		& \multicolumn{2}{c}{NI USB 6009} & \phantom{abc}& \multicolumn{3}{c}{NI USB 6002}\\
+		\cmidrule{1-3} \cmidrule{4-6}
+		&&Rated Output:&&& Rated Output: \\ &&Safe Temp. Range:  &&& Safe Temp. Range: \\ &&Excitation Voltage: &&& Excitation Voltage: \\
+		\bottomrule
+	\end{tabular}
+	\caption{Hardware Specifications}
+\end{table*}
+
+
+\subsection{Manufacturing}
+
+Circuit Diagram
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{This is a placeholder}
+	\label{fig:This is a placeholder}
+\end{figure}
+
+\subsection{Testing}
+
+Testing Operations
+\begin{itemize}
+	\item Descriptions of verification testing should include the objective of the test as well as testing results and any anomalies seen
+	\item Description of acceptance testing should include the criteria needed to be met to determine the system flight ready along with the results
+\end{itemize}
+
+Tests Performed
+\begin{itemize}
+	\item Cold Flows
+	\item Mock Fire
+	\item Hot Fires
+\end{itemize}
+
+Noise from Hardware
+\begin{itemize}
+	\item Thermocouples
+	\item Load Cell
+	\item Pressure Transducers
+	\item Solutions
+\end{itemize}
+
+Hardware Calibration
+\begin{itemize}
+	\item Thermocouples
+	\item Load Cell
+	\item Pressure Transducer
+\end{itemize}
+
+\begin{thebibliography}{10}
+	
+	\bibitem{example}
+	Fernandez, M.M., 
+	"Propellent Tank Pressurization Modeling for a Hybrid Rocket,"
+	Thesis, Mechanical Engineering Dept., Rochester Institute of      
+	Technology, 
+	Rochester, NY, 2009.
+	
+\newpage
+\end{thebibliography}
+
+\end{document}

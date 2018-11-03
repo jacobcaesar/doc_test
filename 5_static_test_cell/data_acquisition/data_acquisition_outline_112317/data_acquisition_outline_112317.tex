@@ -1,0 +1,141 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{comment}
+\begin{document}
+	
+\section{Data Acquisition}
+
+\begin{table}[h!]
+		\centering
+		\begin{tabular}{l l l}
+			r1c1 & r1c2 & r1c3 \\
+			r2c1 & r2c2 & r2c3 \\
+		\end{tabular}
+		\caption{Subsystem Specifications}
+		\label{tab:example}
+\end{table}
+
+\subsection{Design}
+
+\subsubsection{Data Requirements}
+
+Discuss the data needs: thrust, tank pressure, chamber pressure, ambient temperature, chamber (x2) temperature, and tank temperature. Show a diagram of the rocket engine in the test stand with the location of each sensor.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{System Diagram}
+	\label{fig:example}
+\end{figure}
+	
+\subsubsection{Hardware Discussion}
+
+\paragraph{Load Cell}
+
+Discuss the load cell type, the precision, output voltage, and operating conditions. Discuss the inputs/outputs. Discuss the need for a signal conditioner and how it's used. 
+
+\paragraph{Pressure Transducer}
+
+Discuss the PT types, precision, and inputs/outputs. 
+
+\paragraph{Thermocouple}
+
+Discuss the TC types, precision, and inputs/outputs. Discuss why K-type is used. Discuss the need for analog amplifiers and the type used. 
+
+\paragraph{DAQ Board}
+
+Discuss the DAQ board used (NI 6341) and its specifications. Discuss how each sensor is connector to the DAQ board. Quantify the ADC precision for each sensor. 
+	
+\subsubsection{Software Discussion}
+
+Discuss the Labview SRT DAQ program: its function, input/outputs, and a view of the front panel.  
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Font Panel Screenshot}
+	\label{fig:example}
+\end{figure}
+
+\newpage
+\subsection{Manufacturing}
+
+\subsubsection{Circuit Diagram}
+
+Show a circuit diagram of the DAQ system.
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Circuit Diagram}
+	\label{fig:example}
+\end{figure}
+
+\subsubsection{Physical Schematic}
+
+Show a physical schematic of the DAQ system in the junction box. 
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Physical Schematic}
+	\label{fig:example}
+\end{figure}
+
+\subsubsection{Communication Schematic}
+
+Show a schematic of the DAQ system communication (Control Room --- External Computers --- DAQ Boards --- Junction Box --- Sensors)
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Communication Schematic}
+	\label{fig:example}
+\end{figure}
+
+\newpage
+\subsection{Testing}
+
+\subsubsection{Noise \& Filters}
+
+\paragraph{System Noise}
+
+Characterize the system noise and its source(s). This should include an FFT.
+
+\paragraph{Filter Design}
+
+Design an analog filter for the Thermocouples. 
+
+Discuss digital filters for the Load Cell and Pressure Transducer data. 
+
+\subsubsection{Sensor Calibration}
+
+\paragraph{Load Cell}
+
+Discuss load cell calibration, with regards to Gain and Balance. Show calibration curve(s). 
+
+\paragraph{Pressure Transducer}
+
+Discuss Pressure Transducer calibration technique(s) and results.
+
+\paragraph{Therocmouple}
+
+Discuss Thermocouple calibration technique(s) and results.
+
+\begin{thebibliography}{10}
+	
+	\bibitem{example}
+	Fernandez, M.M., 
+	"Propellent Tank Pressurization Modeling for a Hybrid Rocket,"
+	Thesis, Mechanical Engineering Dept., Rochester Institute of      
+	Technology, 
+	Rochester, NY, 2009.
+	
+\end{thebibliography}
+
+\end{document}

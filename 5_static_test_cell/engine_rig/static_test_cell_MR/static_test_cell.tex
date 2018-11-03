@@ -1,0 +1,98 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\begin{document}
+	
+\section{Static Test Cell}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Example}
+	\label{fig:example}
+\end{figure}
+
+
+\begin{table}[h!]
+		\centering
+		\begin{tabular}{l l l}
+			Rig Weight & 300 lbs  \\
+			Engine Weight & 50 lbs  \\
+			Material  & Iron & Steel \\
+			Young's Modulus \\
+			Shear Strength \\
+			Tensile Strength \\
+		\end{tabular}
+		\caption{Static Test Cell Specifications}
+		\label{tab:example}
+\end{table}
+\subsection{Design}
+
+ \begin{enumerate}
+ 	\item Old Design
+ 	
+   The TAMU SRT test cell is an enclosed space designed to mount the engine statically in launch configuration (i.e. non-inverted vertical). The set up includes three I-beams and a cage-like rig around an exhaust port with a load cell at the top of the system to measure weight and thrust. A circular metal plate at the top of the rig is connected to the load cell which in turn is mounted rigidly to the I-beams through a T beam. The rig itself is made of four angle irons, running between the I-beams, and three circular pieces placed at various places along the engine. The cage assembly is in two pieces until final instillation of the engine, where it is finally bolted together through three metal circular pieces. The engine is placed inside the rig and mounted via the combustion chamber flange to the middle circular piece with twelve bolts. A constraint around the tank above the chamber keeps the engine from torqueing inside the rig. To eliminate horizontal movement of the rig, small bearing rollers are in contact with the inside of the I-beams. Pressure transducers are connected to the plumbing and the combustion chamber of the engine and thermocouples measure the temperatures of the ambient air, combustion chamber, plumbing, and nozzle. 
+
+   The described system above is unreliable for a variety of reasons. The main issue can be seen in the load cell data. With the way that the load cell was mounted, any off-axis (not strictly vertical) force vector would not be recorded. Additional loss in thrust data is attributed to the friction caused by the rollers and damping from wood placed between the top plate and the load cell (to protect the load cell from the initial spike in thrust). This lead to discrepancy between theoretical, load cell, and pressure/temperature thrust curves. 
+
+   Other issues include placing the engine inside the rig and alignment issues with bolts and rollers. In order to mount the engine to the rig, several people have to hold both the cage and the engine up while others attempt to align the bolt holes to close the rig around the engine and to mount the rig to the top plate. These bolts go through the two halves of the circular plates tangentially, making it very hard to put the rig together. The rollers are in a tight space and are also very hard to align properly and easy to break. Because of this, they cause friction between the I-beams and the rig, again causing loss of data.
+
+ 	
+ 	\item Redesign
+
+   To resolve the issue of off-axis thrust, a ball joint was implemented between the top plate and the load cell. This is accomplished because the ball joint deflects by small angles instead of the bolt through the load cell. The manufacturer stated that the load cell is more than capable of handling the initial spike at ignition, therefore the wood dampener was replaced by a steel box so that data, especially the initial peak in thrust, is not lost. The most recent load cell data confirms that less information is lost now with the ball joint and steel box assembly. 
+
+   The new rig will have only three angle irons, which are in line with the three I-beams. This configuration allows for easier access to engine plumbing and connections. The circular pieces will be designed with alignment in mind; connecting the two rig pieces together will be much easier. The top plate is designed with less material and easier attachments to the load cell and angle irons. With these changes, the rig will weigh less and engine mounting will be easier and safer. 
+
+   The rollers will now be replaced with pieces of conduit that will be allowed to roll on an axel that is mounted to the I-beams. These new rollers will guide the rig upwards but constrain movement in the laterally without causing friction and thus loss of data. 
+
+
+ 	\item Modes of Failure
+ 	
+ 	The new design has safety in mind so an analysis of failure modes for expected weak points was completed. The connection of the combustion chamber to the rig is under a very large load; that one circular piece carries the weight and the entire thrust of the engine, and they are only connected through twelve grade 8 steel bolts. The angle iron and rig to rig connection bolts are also experiencing similar loads to the engine connection. The ball joint assembly experiences the most forces- the weight of both the rig and the engine as well as the thrust. It also undergoes small deflections and therefore off-axis forces. 
+
+   The twelve engine connection bolts are placed vertically through the flange and the rig plate. These bolts have a tensile strength of 5450 lb and a shear strength of 3270 lb. The weight of the engine is ??? lb and the maximum theoretical thrust is 900 lb, giving a factor of safety of about 6. The rig bolts have a tensile strength of 4750 lb and a shear strength of 2850 lb which gives a factor of safety of about 3. SOMETHIN BOUT BALLY BOI
+
+ 	
+ 	
+ 	\item Final specifications
+ 	\begin{enumerate}
+ 		\item FEA on ball joint assembly (one with force normal to ball joint face, one with force at small angle)
+ 		\item CAD of ball joint assembly (ref engr drawing)
+ 		\item CAD of over all rig with engine
+ 		\item CAD of close up on change of rollers (old and new)
+ 	\end{enumerate}
+ \end{enumerate}
+
+\newpage
+\subsection{Manufacturing}
+
+Here is where you will describe the manufacturing process of actually fabricating the part.
+\begin{itemize}
+	\item Ball Joint assembly pictures
+	\item rig pics
+	\item test cell pics 
+\end{itemize}
+
+\subsection{Testing}
+
+Load cell data
+\begin{itemize}
+	\item old calibration curves
+	\item new calibration curves
+	\item compare thrust curves; peak thrust, fill weight, etc.
+\end{itemize}
+
+
+\begin{thebibliography}{10}
+	
+	\bibitem{example}
+	your mom
+	
+\end{thebibliography}
+
+\end{document}

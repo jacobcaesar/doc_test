@@ -1,0 +1,100 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[latin1]{inputenc}
+\usepackage[margin=1in]{geometry}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\begin{document}
+	
+\section{Static Test Cell}
+
+\begin{figure}[h!]
+	\centering
+	\includegraphics[width=0.25\textwidth]{./figs/logo_srt.png}
+	\caption{Example}
+	\label{fig:example}
+\end{figure}
+
+
+\begin{table}[h!]
+		\centering
+		\begin{tabular}{l l l}
+			Transducer Techniques Load Cell & 500 lbs &  \\
+			What else should be in RTC mech specs??? & r2c2 & r2c3 \\
+		\end{tabular}
+		\caption{Static Test Cell Specifications}
+		\label{tab:example}
+\end{table}
+\subsection{Design}
+
+ \begin{enumerate}
+ 	\item Brief overview of old system
+ 	\begin{enumerate}
+ 		\item General idea of how system works: how engine is mounted, where thrust is being measured, data available to be collected
+ 		\begin{enumerate}
+ 			\item Engine is mounted at combustion chamber flange to rig.
+ 			\item Rig is essentially a cage that is constrained by rollers within I-beams. Plate at top of rig has a rigid connection to load cell, and thrust is measured from the top of the set-up.
+ 		\end{enumerate}
+ 		\item Problems with system that drove redesign
+ 		\begin{enumerate}
+ 			\item LOAD CELL: Load cell data not depicting accurate thrust or thrust calculated from pressure transducers and thermocouples. Friction in the system; loss of peak thrust due to wood between load cell and rig (to protect against initial spike when engine ignites); potential off axis loads that would not register at load cell **OLD LOAD CELL DATA**
+ 			\item RIG: Alignment issues with rig pieces
+ 			\item ROLLERS: Tedious and difficult to align; caused friction along I-beams
+ 		\end{enumerate}
+ 	\end{enumerate}
+ 	
+ 	\item Redesign
+ 	\begin{enumerate}
+ 		\item Ball joint assembly to make set-up more robust and less susceptible to data loss
+ 		\begin{enumerate}
+ 			\item Ball joint accounts for any off axis forces due to it's ability to deflect by small angles
+ 			\item Replaced wood piece with steel; less likely to dampen initial peak thrust at beginning of ignition
+ 			\item **NEW LOAD CELL DATA**
+ 		\end{enumerate}
+ 		\item Rig redesign to make system set-up quicker, safer, simpler, and more robust
+ 		\begin{enumerate}
+ 			\item Switch angle iron configuration to provide easier access to plumbing and connections
+ 			\item Redesign top plate due to difficulty bolting angle irons while holding engine in place
+ 			\item New attachment points at combustion chamber flange pieces to prevent future alignment issues 
+ 			\item Replace rollers with simple pieces of conduit that will guide the rig (keep away from I-beams) but will not be a sources of friction due to constraints within I-beam **this probably needs a picture of where the friction is thought to occur - side of I beams - and how new roller will eliminate that**
+ 			\item modes of failure; analysis for each mode. Angle iron attachments, engine attachments, ball joint, etc.
+ 		\end{enumerate}
+ 	\end{enumerate}
+ 	\item Final specifications
+ 	\begin{enumerate}
+ 		\item FEA on ball joint assembly (one with force normal to ball joint face, one with force at small angle)
+ 		\item CAD of ball joint assembly (ref engr drawing)
+ 		\item CAD of over all rig with engine
+ 		\item CAD of close up on change of rollers (old and new)
+ 	\end{enumerate}
+ \end{enumerate}
+
+\newpage
+\subsection{Manufacturing}
+
+Here is where you will describe the manufacturing process of actually fabricating the part.
+\begin{itemize}
+	\item Ball Joint assembly pictures
+	\item rig pics
+	\item test cell pics 
+\end{itemize}
+
+\subsection{Testing}
+
+Load cell data
+\begin{itemize}
+	\item old calibration curves
+	\item new calibration curves
+	\item compare thrust curves; peak thrust, fill weight, etc.
+\end{itemize}
+
+
+\begin{thebibliography}{10}
+	
+	\bibitem{example}
+	your mom
+	
+\end{thebibliography}
+
+\end{document}
