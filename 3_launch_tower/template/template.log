@@ -1,54 +1,64 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.11.10)  18 NOV 2017 14:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6730) (preloaded format=pdflatex 2018.8.18)  3 NOV 2018 13:02
 entering extended mode
 **./template.tex
 (template.tex
-LaTeX2e <2017-04-15>
-Babel <3.9t> and hyphenation patterns for 76 language(s) loaded.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
+LaTeX2e <2018-04-01> patch level 5
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\size10.clo"
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/size10.clo"
 File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 )
-\c@part=\count79
-\c@section=\count80
-\c@subsection=\count81
-\c@subsubsection=\count82
-\c@paragraph=\count83
-\c@subparagraph=\count84
-\c@figure=\count85
-\c@table=\count86
+\c@part=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
 \abovecaptionskip=\skip41
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
-Package: inputenc 2015/03/17 v1.2c Input encoding file
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/inputenc.sty"
+Package: inputenc 2018/04/06 v1.3b Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
-File: latin1.def 2015/03/17 v1.2c Input encoding file
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/latin1.def"
+File: latin1.def 2018/04/06 v1.3b Input encoding file
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
-Package: geometry 2010/09/12 v5.6 Page Geometry
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.sty"
+Package: geometry 2018/04/16 v5.8 Page Geometry
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifpdf.sty"
 Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/ifxetex/ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count87
-\Gm@cntv=\count88
-\c@Gm@tempcnt=\count89
+\Gm@cnth=\count88
+\Gm@cntv=\count89
+\c@Gm@tempcnt=\count90
 \Gm@bindingoffset=\dimen103
 \Gm@wd@mp=\dimen104
 \Gm@odd@mp=\dimen105
@@ -59,34 +69,41 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
-Package: amsmath 2016/11/05 v2.16a AMS math features
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/geometry/geometry.cfg"))
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsmath.sty"
+Package: amsmath 2017/09/02 v2.17a AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amstext.sty"
 Package: amstext 2000/06/29 v2.01 AMS text
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0 generic functions
 \@emptytoks=\toks18
 \ex@=\dimen111
 ))
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d Bold Symbols
 \pmbraise@=\dimen112
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsmath/amsopn.sty"
 Package: amsopn 2016/03/08 v2.02 operator names
 )
-\inf@bad=\count90
+\inf@bad=\count91
 LaTeX Info: Redefining \frac on input line 213.
-\uproot@=\count91
-\leftroot@=\count92
+\uproot@=\count92
+\leftroot@=\count93
 LaTeX Info: Redefining \overline on input line 375.
-\classnum@=\count93
-\DOTSCASE@=\count94
+\classnum@=\count94
+\DOTSCASE@=\count95
 LaTeX Info: Redefining \ldots on input line 472.
 LaTeX Info: Redefining \dots on input line 475.
 LaTeX Info: Redefining \cdots on input line 596.
@@ -95,15 +112,15 @@ LaTeX Info: Redefining \cdots on input line 596.
 \big@size=\dimen113
 LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
 LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
-\macc@depth=\count95
-\c@MaxMatrixCols=\count96
+\macc@depth=\count96
+\c@MaxMatrixCols=\count97
 \dotsspace@=\muskip10
-\c@parentequation=\count97
-\dspbrk@lvl=\count98
+\c@parentequation=\count98
+\dspbrk@lvl=\count99
 \tag@help=\toks19
-\row@=\count99
-\column@=\count100
-\maxfields@=\count101
+\row@=\count100
+\column@=\count101
+\maxfields@=\count102
 \andhelp@=\toks20
 \eqnshift@=\dimen114
 \alignsep@=\dimen115
@@ -118,45 +135,43 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
 LaTeX Info: Redefining \[ on input line 2817.
 LaTeX Info: Redefining \] on input line 2818.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsfonts/amsfonts.sty"
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
 (Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsfonts/amssymb.sty"
 Package: amssymb 2013/01/14 v3.01 AMS font symbols
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
-Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphicx.sty"
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/graphics.sty"
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics/trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-cfg\graphics.cfg"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-cfg/graphics.cfg"
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 99.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\graphics-def\pdftex.def"
-File: pdftex.def 2017/01/12 v0.06k Graphics/color for pdfTeX
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
-Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
-)
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
-Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
-)
-\Gread@gobject=\count102
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/graphics-def/pdftex.def"
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen120
 \Gin@req@width=\dimen121
-)
-(template.aux
+) (template.aux
 
 LaTeX Warning: Label `fig:angle_10' multiply defined.
 
@@ -210,7 +225,9 @@ LaTeX Font Info:    ... okay on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/conte
+xt/base/supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count103
 \scratchdimen=\dimen122
@@ -223,62 +240,80 @@ LaTeX Font Info:    ... okay on input line 8.
 \MPnumerator=\count107
 \makeMPintoPDFobject=\count108
 \everyMPtoPDFconversion=\toks24
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/epstopdf-base.sty"
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/infwarerr.sty"
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+)
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/grfext.sty"
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/kvdefinekeys.sty"
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ltxcmds.sty"
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+)))
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/oberdiek/kvoptions.sty"
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/kvsetkeys.sty"
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/etexcmds.sty"
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/ifluatex.sty"
 Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
 Package ifluatex Info: LuaTeX not detected.
+)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+)))
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/gener
+ic/oberdiek/pdftexcmds.sty"
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
 )
 Package pdftexcmds Info: LuaTeX not detected.
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
 )
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
-
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 38.
 Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
 G,.JBIG2,.JB2,.eps]
 (grfext)             \AppendGraphicsExtensions on input line 456.
 )
 <./figs/Overview.png, id=1, 661.87276pt x 389.65575pt>
 File: ./figs/Overview.png Graphic file (type png)
-
 <use ./figs/Overview.png>
-Package pdftex.def Info: ./figs/Overview.png used on input line 14.
+Package pdftex.def Info: ./figs/Overview.png  used on input line 14.
 (pdftex.def)             Requested size: 339.72592pt x 200.00606pt.
 LaTeX Font Info:    Try loading font information for U+msa on input line 22.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsfonts/umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
 LaTeX Font Info:    Try loading font information for U+msb on input line 22.
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/amsfonts/umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 Underfull \hbox (badness 10000) in paragraph at lines 42--43
@@ -286,7 +321,9 @@ Underfull \hbox (badness 10000) in paragraph at lines 42--43
  []
 
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 47.
-("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+
+("/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/tex/latex
+/base/omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
@@ -298,24 +335,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 53--54
 
 [1
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./figs/Overview.png>]
+{/Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/data/pdftex/config
+/pdftex.map} <./figs/Overview.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 55--56
 
  []
 
 <./figs/moment_cal.png, id=12, 731.1315pt x 283.65974pt>
 File: ./figs/moment_cal.png Graphic file (type png)
-
 <use ./figs/moment_cal.png>
-Package pdftex.def Info: ./figs/moment_cal.png used on input line 59.
+Package pdftex.def Info: ./figs/moment_cal.png  used on input line 59.
 (pdftex.def)             Requested size: 339.72592pt x 131.80519pt.
-
 <./figs/forces.png, id=13, 818.45775pt x 245.11575pt>
 File: ./figs/forces.png Graphic file (type png)
- <use ./figs/forces.png>
-Package pdftex.def Info: ./figs/forces.png used on input line 78.
+<use ./figs/forces.png>
+Package pdftex.def Info: ./figs/forces.png  used on input line 78.
 (pdftex.def)             Requested size: 339.72592pt x 101.74358pt.
-
 [2 <./figs/moment_cal.png>]
 Underfull \hbox (badness 10000) in paragraph at lines 98--99
 
@@ -343,30 +378,24 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
 
 <./figs/clevis_angle_60.png, id=21, 370.38374pt x 234.27525pt>
 File: ./figs/clevis_angle_60.png Graphic file (type png)
-
 <use ./figs/clevis_angle_60.png>
-Package pdftex.def Info: ./figs/clevis_angle_60.png used on input line 136.
+Package pdftex.def Info: ./figs/clevis_angle_60.png  used on input line 136.
 (pdftex.def)             Requested size: 339.72592pt x 214.88524pt.
-
 <./figs/clevis_angle_10.png, id=22, 350.5095pt x 340.27126pt>
 File: ./figs/clevis_angle_10.png Graphic file (type png)
-
 <use ./figs/clevis_angle_10.png>
-Package pdftex.def Info: ./figs/clevis_angle_10.png used on input line 144.
+Package pdftex.def Info: ./figs/clevis_angle_10.png  used on input line 144.
 (pdftex.def)             Requested size: 339.72592pt x 329.8083pt.
-
 <./figs/load_graph.png, id=23, 733.5405pt x 393.8715pt>
 File: ./figs/load_graph.png Graphic file (type png)
-
 <use ./figs/load_graph.png>
-Package pdftex.def Info: ./figs/load_graph.png used on input line 150.
+Package pdftex.def Info: ./figs/load_graph.png  used on input line 150.
 (pdftex.def)             Requested size: 339.72592pt x 182.41513pt.
- [3 <./figs/forces.png>]
+[3 <./figs/forces.png>]
 <./figs/clevis_good_10.png, id=30, 378.81525pt x 245.11575pt>
 File: ./figs/clevis_good_10.png Graphic file (type png)
-
 <use ./figs/clevis_good_10.png>
-Package pdftex.def Info: ./figs/clevis_good_10.png used on input line 158.
+Package pdftex.def Info: ./figs/clevis_good_10.png  used on input line 158.
 (pdftex.def)             Requested size: 339.72592pt x 219.82043pt.
 
 Underfull \hbox (badness 10000) in paragraph at lines 171--172
@@ -380,23 +409,27 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 2955 strings out of 493320
- 40035 string characters out of 3138956
- 110813 words of memory out of 3000000
- 6447 multiletter control sequences out of 15000+200000
+ 2907 strings out of 494891
+ 42937 string characters out of 3176685
+ 108089 words of memory out of 3000000
+ 6485 multiletter control sequences out of 15000+200000
  6857 words of font info for 27 fonts, out of 3000000 for 9000
- 1141 hyphenation exceptions out of 8191
- 39i,7n,32p,734b,227s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Pr
-ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Program Fi
-les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmex10.pfb><C:/Program Files/MiKT
-eX 2.9/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/amsfonts/cm/cmmi5.pfb><C:/Program Files/MiKTeX 2.9/fonts/type
-1/public/amsfonts/cm/cmmi7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
-amsfonts/cm/cmr10.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr7.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.
-pfb>
-Output written on template.pdf (6 pages, 1206210 bytes).
+ 0 hyphenation exceptions out of 8191
+ 41i,7n,32p,734b,225s stack positions out of 5000i,500n,10000p,200000b,50000s
+</Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/fonts/ty
+pe1/public/amsfonts/cm/cmbx10.pfb></Users/jakemantiv/Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmbx12.pfb></Users/jakem
+antiv/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsf
+onts/cm/cmex10.pfb></Users/jakemantiv/Library/Application Support/MiKTeX/texmfs
+/install/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/jakemantiv/Library/A
+pplication Support/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmmi5.p
+fb></Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/install/fonts/t
+ype1/public/amsfonts/cm/cmmi7.pfb></Users/jakemantiv/Library/Application Suppor
+t/MiKTeX/texmfs/install/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/jakema
+ntiv/Library/Application Support/MiKTeX/texmfs/install/fonts/type1/public/amsfo
+nts/cm/cmr7.pfb></Users/jakemantiv/Library/Application Support/MiKTeX/texmfs/in
+stall/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on template.pdf (6 pages, 1206232 bytes).
 PDF statistics:
  72 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
